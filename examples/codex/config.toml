@@ -1,0 +1,6 @@
+[mcp_servers.session_coord]
+command = "node"
+args = ["./dist/index.js", "--workspace-root", "."]
+
+[mcp_servers.session_coord.env]
+SESSION_COORD_DEFAULT_TTL_MINUTES = "30"

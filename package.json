@@ -1,0 +1,51 @@
+{
+  "name": "session-coord-mcp",
+  "version": "0.1.0",
+  "description": "A local-first MCP server for coordinating parallel coding sessions across Claude Code, Codex, and other MCP clients.",
+  "type": "module",
+  "author": "\u51cc\u98ce",
+  "license": "MIT",
+  "bin": {
+    "session-coord-mcp": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "docs",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20.11"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc --noEmit -p tsconfig.json",
+    "dev": "tsx src/index.ts",
+    "doctor": "tsx src/index.ts doctor --target .",
+    "init:repo": "tsx src/index.ts init --target .",
+    "start": "node dist/index.js",
+    "test": "tsx --test test/**/*.test.ts",
+    "version:print": "node dist/index.js --version"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude-code",
+    "codex",
+    "coordination",
+    "sqlite",
+    "parallel-development"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "better-sqlite3": "^12.8.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^24.6.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.3"
+  }
+}

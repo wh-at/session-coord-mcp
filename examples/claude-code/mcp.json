@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "session-coord": {
+      "command": "node",
+      "args": [
+        "./dist/index.js",
+        "--workspace-root",
+        "."
+      ],
+      "env": {
+        "SESSION_COORD_DEFAULT_TTL_MINUTES": "30"
+      }
+    }
+  }
+}
