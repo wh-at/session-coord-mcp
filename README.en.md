@@ -2,7 +2,14 @@
 
 A local-first MCP server for coordinating parallel coding sessions across Claude Code, Codex, and other MCP clients.
 
+[![CI](https://github.com/wh-at/session-coord-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/wh-at/session-coord-mcp/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/wh-at/session-coord-mcp)](./LICENSE)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-wh--at%2Fsession--coord--mcp-181717?logo=github)](https://github.com/wh-at/session-coord-mcp)
+
 Author: Lingfeng
+
+Repository:
+https://github.com/wh-at/session-coord-mcp
 
 ## What it solves
 
