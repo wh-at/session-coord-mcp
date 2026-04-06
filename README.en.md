@@ -1,8 +1,8 @@
 # session-coord-mcp
 
-[![CI](https://github.com/wh-at/session-coord-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/wh-at/session-coord-mcp/actions/workflows/ci.yml)
-[![License](https://img.shields.io/github/license/wh-at/session-coord-mcp)](./LICENSE)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-wh--at%2Fsession--coord--mcp-181717?logo=github)](https://github.com/wh-at/session-coord-mcp)
+[![CI](https://github.com/LingFeng-Vels/session-coord-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/LingFeng-Vels/session-coord-mcp/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/LingFeng-Vels/session-coord-mcp)](./LICENSE)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-LingFeng--Vels%2Fsession--coord--mcp-181717?logo=github)](https://github.com/LingFeng-Vels/session-coord-mcp)
 
 [English](./README.en.md) | [简体中文](./README.zh-CN.md)
 
@@ -11,7 +11,7 @@ A local-first MCP server for coordinating parallel coding sessions across Claude
 Author: Lingfeng
 
 Repository:
-https://github.com/wh-at/session-coord-mcp
+https://github.com/LingFeng-Vels/session-coord-mcp
 
 ## What you get
 
