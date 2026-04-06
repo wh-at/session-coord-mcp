@@ -217,6 +217,8 @@ node dist/index.js --version
 - [开发说明](./docs/development.md)
 - [工具说明](./docs/tools.md)
 - [路线图](./docs/roadmap.md)
+- [v0.1.0 Release 文案](./docs/github-release-v0.1.0.md)
+- [v0.1.1 计划](./docs/v0.1.1-plan.md)
 - [设计初稿](./docs/session-coordination-mcp-design.md)
 - [安全说明](./SECURITY.md)
 - [发布指南](./docs/publishing.md)

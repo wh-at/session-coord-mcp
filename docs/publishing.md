@@ -40,6 +40,10 @@ npm run build
 6. Create the first tag, such as `v0.1.0`
 7. Publish release notes
 
+Recommended release body:
+
+- [`docs/github-release-v0.1.0.md`](./github-release-v0.1.0.md)
+
 ## If GitHub CLI Is Not Installed
 
 You can still publish with plain Git:
